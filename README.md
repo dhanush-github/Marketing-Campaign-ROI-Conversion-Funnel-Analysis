@@ -1,127 +1,140 @@
+
 🚀 Marketing Campaign ROI & Conversion Funnel Analysis
-📈 Business Context
-Today’s brands invest heavily in multi-channel digital marketing — from Google Ads, Email, Display, to Influencer campaigns.
-Yet, up to 60% of spend often leaks through poor funnel performance, low ROI channels, or neglected high-value segments.
+
+
+📈 📌 Business Context
+Today’s brands invest millions across multiple channels — Google Ads, Display, Email, Influencer campaigns.
+But up to 60% of spend leaks through poor funnel performance, high CPA, or low-ROI segments.
+
 
 🎯 Business Problem
 Key challenge:
-👉 Which campaigns, channels, and customer segments truly deliver ROI — and where does spend get wasted?
+Which campaigns, channels, segments, and locations truly deliver ROI — and where does budget silently burn?
 
-This project answers:
-✅ How do visitors flow through the conversion funnel?
-✅ Which channels/campaigns drain budget with high CPA?
-✅ Which geographies and segments outperform the rest?
-✅ How can we reallocate spend for maximum impact?
-✅ What happens to ROI & CPA if spend shifts by 10–20%?
 
-🔑 Solution Highlights
-This end-to-end project:
+❓ This Project Answers
+✅ Which channels deliver highest ROI?
+✅ Which campaigns leak budget with high CPA?
+✅ Where do users drop off in the conversion funnel?
+✅ Which segments and locations outperform?
+✅ How can we reallocate spend for better returns?
+✅ What happens to ROI & CPA if spend shifts ±10%?
 
-Uses realistic open marketing data from multiple campaign types.
 
-Runs advanced funnel + ROI analysis with real SQL, Python, Excel & Power BI.
+🧩 Solution Overview
+🔍 Data: Realistic open marketing data — Impressions, Clicks, Conversions, CPA, ROI, Segments, Locations.
 
-Builds hypothesis tests to check if differences are statistically significant.
 
-Creates an interactive dashboard for live scenario testing.
+⚙️ Tools:
 
-🛠️ Tech Stack
-Tool	Purpose
-🗂️ SQL (MySQL)	Database schema, insert, ROI/CPA queries
-🐍 Python (Pandas, SciPy)	EDA, hypothesis testing, funnel metrics
-📊 Excel	Pivots, what-if CPA & ROI scenarios
-📊 Power BI	Executive dashboard — 3 pages: KPIs, Channels, Geo
-📁 GitHub	Portfolio delivery
+SQL (MySQL) → Create DB, insert, run core ROI/CPA queries.
 
-⚙️ Project Workflow
-✅ 1️⃣ Data Design & Insert
+Python (Pandas, SciPy) → EDA, funnel stats, hypothesis testing.
 
-design.sql sets up campaign_performance table.
+Excel → Pivots, what-if CPA & ROI scenarios.
 
-INSERT includes test data for campaigns: Company, Channel, CPA, ROI.
+Power BI → Executive dashboard with scenario simulation.
 
-✅ 2️⃣ SQL Analysis
 
-Queries cover:
+📊 Business Focus:
 
-ROI by Channel & Campaign
+Prove funnel drop-offs & leaks with real numbers.
 
-Funnel drop-off
+Back insights with stats tests.
 
-CPA comparison
+Show What-If impact of spend shifts.
 
-Top segments & geos
+Deliver a clean executive story — no tool clutter.
 
-✅ 3️⃣ Python EDA & Hypothesis
 
-EDA plots:
+🏗️ 💻 Project Workflow
+✅	Stage
+✔️	1️⃣ SQL: Schema + Insert + 10 practical business queries
+✔️	2️⃣ Python: EDA visuals, funnel metrics, A/B test, ANOVA, Chi-Square
+✔️	3️⃣ Excel: Pivot tables, funnel breakdown, What-If analysis
+✔️	4️⃣ Power BI: 3-page interactive dashboard — KPIs, Deep Dive, Geo & Trends
 
-Impressions vs Clicks scatter
+
+🔑 Key Metrics Tracked
+Total Impressions
+
+Total Clicks
+
+Estimated Conversions
+
+CPA: Cost per Acquisition
+
+ROI: (Revenue – Cost) / Cost
+
+CTR: Click-Through Rate
+
+Conversion Funnel Drop-Off
+
+
+📌 Core Business Insights
+💡 ~60% of spend stuck in channels with ROI < 2×
+💡 Top 3 segments deliver 2× ROI vs average
+💡 Funnel drop-off ~90% from Impressions ➜ Conversions
+💡 Certain geographies beat average ROI by 1.8×
+💡 -10% Cost shift can lift ROI 15–20%
+
+
+⚙️ Solution Details
+📂 SQL
+design.sql → Schema + Insert statements.
+
+analysis_queries.sql → Queries for:
+
+ROI by Channel
+
+CPA spread
+
+Funnel stage drop-offs
+
+Top Segments & Geo
+
+
+🐍 Python
+EDA with Matplotlib & Seaborn:
+
+Impressions vs Clicks
 
 CTR by Channel
 
-CPA by Campaign
+CPA by Campaign Type
 
-Tests:
+Advanced Stats Tests:
 
-A/B uplift (Email vs Display)
+T-Test → Email vs Display uplift
 
-ANOVA (Locations)
+ANOVA → Location ROI differences
 
-Chi-square (Customer Segments)
+Chi-Square → Segments vs Campaign
 
-Correlation (Engagement vs CPA)
-
-Scenario impact tests
-
-✅ 4️⃣ Excel Report
-
-Pivots: Channel vs CPA & ROI, Funnel drop-off, Geo trends.
-
-What-If: -10%/+10% cost → new CPA & ROI.
-
-✅ 5️⃣ Power BI Executive Dashboard
-
-Page 1: Executive Summary & Funnel
-
-KPIs, Impressions ➜ Clicks ➜ Conversions, What-If Scenario slider.
-
-Page 2: Channel & Campaign Deep Dive
-
-CPA & ROI by Channel, Conversion by Campaign_Type.
-
-Page 3: Segments, Geo & Trends
-
-ROI map by Location, CPA by Segment, Time Series Trends.
-
-🔍 Key Screenshots
-
-🔬 Key Metrics
-✅ Total Impressions
-✅ Total Clicks
-✅ Estimated Conversions
-✅ CPA = Cost / Conversions
-✅ ROI = (Revenue - Cost) / Cost
-✅ CTR = Clicks / Impressions
-✅ Conversion Funnel Drop-Off
-
-🧩 Challenges Solved
-🚧 Consolidating multi-channel data
-🚧 Mapping funnel drop-offs stage by stage
-🚧 Designing clean DAX for What-If
-🚧 Validating uplift with real hypothesis tests
-🚧 Making the story manager-ready — clear insights, no tool fluff
-
-💡 Key Business Insights
-✅ 60% of budget sits in underperforming channels
-✅ Top 3 segments deliver 2× ROI vs average
-✅ Funnel shows ~90% drop-off — huge retargeting opportunity
-✅ Geo split unlocks cities outperforming national ROI by 1.8×
-✅ Small cost shifts (±10%) lift ROI by 15–20%
+Correlation → Engagement vs CPA
 
 
-📌 Next Actions
-🔁 Reallocate budget from low ROI channels to high performers
-📌 Focus on top segments & geos
-🎯 Test new creatives for high drop-off campaigns
-📈 Refresh funnel quarterly, run new A/B uplift tests
+📊 Excel
+Pivots → Channel ROI & CPA spread, Funnel performance.
+
+What-If → -10% / +10% Cost scenario → see CPA & ROI change.
+
+Clean management-ready layout.
+
+
+📈 Power BI
+Page 1: Executive Overview → KPIs, Funnel, Cost slider.
+
+Page 2: Channel & Campaign Deep Dive → CPA, ROI, CTR.
+
+Page 3: Segments, Geo & Trends → Maps, Segments, Time Series.
+
+✅ Includes What-If DAX, Slicers, Rolling Trend, Dynamic Cards.
+
+
+
+🚀 Next Steps
+✅ Redirect spend from low ROI to top segments.
+✅ Boost budget for high-ROI geographies.
+✅ Run new A/B tests for funnel drop-offs.
+✅ Refresh dashboard quarterly for live scenario checks.
