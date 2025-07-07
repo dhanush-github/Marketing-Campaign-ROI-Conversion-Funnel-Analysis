@@ -2,14 +2,19 @@
 🚀 Marketing Campaign ROI & Conversion Funnel Analysis
 
 
+
 📈 📌 Business Context
 Today’s brands invest millions across multiple channels — Google Ads, Display, Email, Influencer campaigns.
 But up to 60% of spend leaks through poor funnel performance, high CPA, or low-ROI segments.
 
 
+
+
 🎯 Business Problem
 Key challenge:
 Which campaigns, channels, segments, and locations truly deliver ROI — and where does budget silently burn?
+
+
 
 
 ❓ This Project Answers
@@ -25,6 +30,8 @@ Which campaigns, channels, segments, and locations truly deliver ROI — and whe
 ✅ How can we reallocate spend for better returns?
 
 ✅ What happens to ROI & CPA if spend shifts ±10%?
+
+
 
 
 🧩 Solution Overview
@@ -54,6 +61,8 @@ Show What-If impact of spend shifts.
 Deliver a clean executive story — no tool clutter.
 
 
+
+
 🏗️ 💻 Project Workflow
 ✅	Stage
 
@@ -64,6 +73,8 @@ Deliver a clean executive story — no tool clutter.
 ✔️	3️⃣ Excel: Pivot tables, funnel breakdown, What-If analysis
 
 ✔️	4️⃣ Power BI: 3-page interactive dashboard — KPIs, Deep Dive, Geo & Trends
+
+
 
 
 🔑 Key Metrics Tracked
@@ -80,6 +91,8 @@ ROI: (Revenue – Cost) / Cost
 CTR: Click-Through Rate
 
 Conversion Funnel Drop-Off
+
+
 
 
 📌 Core Business Insights
